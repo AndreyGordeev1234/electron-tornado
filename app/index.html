@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Load data</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+    <style>
+      body {
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      .main {
+        margin-top: 10px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body style="background: white">
+    <button id="load">Load some data</button>
+    <main class="main">
+      <p id="noData">No data</p>
+      <p class="loading" id="loading"></p>
+      <p class="error" id="error"></p>
+      <section class="data" id="data">
+        <h1 class="text" id="text"></h1>
+        <time class="time" id="time"></time>
+      </section>
+    </main>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
