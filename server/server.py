@@ -1,9 +1,7 @@
 import tornado.ioloop
 import tornado.web
 from datetime import datetime
-from PIL import Image
 import base64
-import json
 
 
 class MainHandler(tornado.web.RequestHandler):
